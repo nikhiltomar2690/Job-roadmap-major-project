@@ -26,7 +26,7 @@ export const Navbar = () => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/whydevsunite">Why DevsUnite?</NavLink>
+          <NavLink to="/whydevsunite">Jobs</NavLink>
         </li>
         <li>
           <NavLink to="/contact">Contact Us</NavLink>
