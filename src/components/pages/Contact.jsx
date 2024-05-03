@@ -105,7 +105,7 @@ export const Contact = () => {
               </div>
               <div className="information">
                 <i className="fas fa-phone"></i>&nbsp; &nbsp;
-                <p>https://devsunite.com</p>
+                <p>https://devsunite-major.netlify.app/</p>
               </div>
             </div>
 
