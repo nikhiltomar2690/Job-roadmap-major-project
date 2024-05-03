@@ -1,0 +1,49 @@
+.card-testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #2cee91;
+  border-radius: 30px;
+  width: 21.5rem;
+  height: 26.188rem;
+}
+.card-img {
+  margin: 1rem 0;
+  height: 10rem;
+  width: 10rem;
+}
+.card-name {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.card-role {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.card-content {
+  margin: 2rem 0;
+  padding: 0 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card-testimonial {
+    width: 15rem;
+    height: 19.188rem;
+  }
+  .card-img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .card-name {
+    font-size: 1rem;
+  }
+  .card-role {
+    font-size: 0.6rem;
+  }
+  .card-content {
+    font-size: 0.8rem;
+  }
+}

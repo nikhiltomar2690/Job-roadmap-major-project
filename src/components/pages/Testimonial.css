@@ -1,0 +1,35 @@
+.testimonial-container {
+  overflow: hidden;
+}
+
+.cards-testimonial-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.cards-testimonial {
+  display: flex;
+  justify-content: flex-start; /* Start scrolling from the left edge */
+  gap: 4rem; /* Reduce the gap between cards */
+  margin: 3% 0;
+  animation: scroll 15s linear infinite;
+}
+
+.cards-testimonial.paused {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards-testimonial {
+    gap: 2rem;
+  }
+}
