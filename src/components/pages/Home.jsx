@@ -47,7 +47,7 @@ export const Home = () => {
       <div id="benefits"></div>
       <GetSkilled />
       <Testimonial />
-      <div className="div-container">
+      {/* <div className="div-container">
         <div className="downloadcard">
           <div className="text-container">
             <p className="download-mainheading">
@@ -62,7 +62,7 @@ export const Home = () => {
           </div>
           <button className="downloadButton">Download App</button>
         </div>
-      </div>
+      </div> */}
       <footer>
         <div className="footer">
           <div className="row">
